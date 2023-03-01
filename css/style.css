@@ -38,6 +38,16 @@ main{
     font-family: 'Font Awesome 6 Free';
     font-weight: 900;
 }
+.topside{
+    height: 100px;
+    padding: 10px;
+}
+
+.pills-blue{
+    background-color: #165bba;
+    width: fit-content;
+    
+}
 
 td img{
     width: 2rem;
