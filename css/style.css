@@ -22,6 +22,7 @@ main{
     overflow-y: auto;
     height: 100%;
 }
+
 .btn-pen , .trash-btn{
     border: 2px solid #6c757d;
     color: #6c757d;

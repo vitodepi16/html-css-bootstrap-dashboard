@@ -52,17 +52,20 @@
         <section class="container-fluid">
           <div class="row">
             <div class="col-12 col-lg-8 debug">
-                <div class="card p-3 mt-4 bg-secondary-subtle">
-                    <h2 class="">Prossime classi</h2>
-                
-                    <table class="table">
+                <div class="card p-3 mt-4 ">
+                    <div class="card-header bg-secondary-subtle">
+                        <h2 class="">Prossime classi</h2>
+                    </div>
+                    
+                <div class="card-body">
+                      <table class="table">
                         <thead>
                           <tr>
                             <th scope="col" colspan="5">Nome</th>
                             <th scope="col" class="d-none d-md-block">Data inizio</th>
                             <th scope="col">ROI</th>
-                            <th scope="col">Stato</th>
-                            <th scope="col">Azioni</th>
+                            <th scope="col" class="text-center">Stato</th>
+                            <th scope="col" class="text-center">Azioni</th>
                           </tr>
                         </thead>
                         <tbody>
@@ -72,8 +75,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">15 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-success">Done</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge  text-bg-success">Done</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -84,8 +87,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">16 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-success">Done</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -96,8 +99,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">17 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-warning text-white">Process</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge text-bg-warning text-white">Process</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -108,8 +111,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">18 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-success">Done</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -120,8 +123,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">19 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-danger">failed</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -132,8 +135,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">20 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-success">Done</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -144,8 +147,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">21 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-danger">failed</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -156,8 +159,8 @@
                                 </td>
                                 <td class="d-none d-md-block pb-3">22 feb 2021</td>
                                 <td>20&percnt;</td>
-                                <td><span class="badge text-bg-success">Done</span></td>
-                                <td>
+                                <td class="text-center"><span class="badge text-bg-success">Done</span></td>
+                                <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
                                     <button class="btn-trash rounded-2"></button>
                                 </td>
@@ -165,10 +168,15 @@
                         </tbody>
                       </table>
                 </div>
+                  
+                </div>
                 <!-- SECTION FAQ -->
                 <div class="card p-3 mt-4">
-                    <h2 class="bg-secondary-subtle">F.A.Q</h2>
-                    <div class="accordion" id="accordionExample">
+                    <div class="card-header bg-secondary-subtle">
+                        <h2 >F.A.Q</h2>
+                    </div>
+                    <div class="card-body">
+                        <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                           <h2 class="accordion-header" id="headingOne">
                             <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
@@ -205,12 +213,15 @@
                           </div>
                         </div>
                       </div>
+                    </div>
+                    <
                 </div>
             </div>
             <!-- END SECTION FAQ -->
             <!-- ------------------ -->
             <!-- SECTION RIGHT ELEMENT -->
             <div class="col-12 col-lg-4 debug">
+                <!-- SECTION TODO -->
                 <div class="card p-3 mt-4" >
                     <div class="card-header">
                       <h3>Todo</h3>
@@ -221,6 +232,12 @@
                       <li class="list-group-item"><input type="checkbox" name="check" id=""> Controllare username github studenti</li>
                     </ul>
                   </div>
+                  <!-- END SECTION TODO -->
+                  <!-- ---------- -->
+                  <!-- START SECTION GRAPICH -->
+                  <section>
+
+                  </section>
             </div>
         </div>
           </div>
