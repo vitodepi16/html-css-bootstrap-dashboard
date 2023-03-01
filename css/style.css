@@ -1,0 +1,24 @@
+
+ .debug{
+    border: 1px solid red;
+} 
+
+header{
+    height: 60px;
+}
+.wrapper{
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+}
+#leftbar{
+    height: 100%;
+    width: 180px;
+    flex-shrink: 0;
+    background-color: #051e34;
+    background-image: url('../img/sidebar-bg.png');
+}
+main{
+    flex-grow: 1;
+    overflow-y: auto;
+    height: 100%;
+}
