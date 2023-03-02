@@ -83,6 +83,12 @@ td img{
 }
 
 /* MEDIAQUERY */
-@media screen and{max-width: 574;
+@media screen and(max-width: 574px){
+    #leftbar{
+        width: 60px;
+    }
+    .offcanvas.offcanvass-end{
+        width: 60vw;
+    }
     
 }
