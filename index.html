@@ -62,9 +62,103 @@
                     <p>Studenti online negli ultimi 30 anni</p>
                     <span class=""> 125</span>
                 </div>
-                <div class="col d-flex justify-content-end">
+                <div class="col d-flex align-items-center justify-content-end">
                     
-                    <p>nuovo studente</p>
+                    <p class="p-2"> Nuovo studente</p>
+                    <div class="menu-canvass">
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">&plus;</button>
+
+<div class="offcanvas  offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel" style="width:60vw;" >
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci i tuoi dati</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body offcanvas-xl">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <label for="inputEmail4" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail4">
+          </div>
+          <div class="col-md-6">
+            <label for="inputPassword4" class="form-label">Password</label>
+            <input type="password" class="form-control" id="inputPassword4">
+          </div>
+          <div class="input-group g-3 " >
+            <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <div class="input-group">
+                    <span class="input-group-text" id="basic-addon1">@</span>
+                    <input type="email" class="form-control" aria-label="email"
+                           aria-describedby="basic-addon1">
+                </div>
+            </div>
+           <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+            </div> 
+            </div>
+    <div class="input-group ">
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <div class="input-group">
+                <span class="input-group-text" id="basic-addon1">@</span>
+                <input type="email" class="form-control" aria-label="email"
+                       aria-describedby="basic-addon1">
+            </div>
+        </div>
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label ms-3">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+    </div> 
+    </div>
+    <div class="col-md-6">
+        <label for="inputEmail4" class="form-label">Indirizzo</label>
+        <input type="email" class="form-control" id="inputEmail4">
+      </div>
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">Città</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">Stato</label>
+          <select id="inputState" class="form-select">
+            <option selected>Scegli...</option>
+            <option>Italia</option>
+            <option>Spagna</option>
+            <option>Germania</option>
+            <option>USA</option>
+            <option>Norvegia</option>
+            <option>Puglia</option>
+            <option>Polonia</option>
+            <option>Austria</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">CAP</label>
+          <input type="text" class="form-control" id="inputZip">
+        </div>
+        <div class="mb-3">
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Seleziona per proseguire
+            </label>
+          </div>
+         
+      </form>
+      <div class="d-grid d-md-block">
+        <button class="btn btn-primary btn-sm" type="button">Salva</button>
+        <button class="btn btn-warning btn-sm" type="button">Svuota</button>
+      </div>
+  </div>
+  </div>
+</div>
+                    
+</div>
                 </div>
             </div>
           </div>
@@ -105,7 +199,7 @@
                                 <td class="text-center"><span class="badge  text-bg-success">Done</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                             <tr>
@@ -117,7 +211,7 @@
                                 <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                             <tr>
@@ -129,7 +223,7 @@
                                 <td class="text-center"><span class="badge text-bg-warning text-white">Process</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                             <tr>
@@ -141,7 +235,7 @@
                                 <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                             <tr>
@@ -153,7 +247,7 @@
                                 <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                             <tr>
@@ -165,7 +259,7 @@
                                 <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                             <tr>
@@ -177,7 +271,7 @@
                                 <td class="text-center"><span class="badge text-bg-danger">failed</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                             <tr>
@@ -189,7 +283,7 @@
                                 <td class="text-center"><span class="badge text-bg-success">Done</span></td>
                                 <td class="text-center">
                                     <button class="btn-pen btn-rounded-2"></button>
-                                    <button class="btn-trash rounded-2"></button>
+                                    <button class="trash-btn rounded-2"></button>
                                 </td>
                             </tr>
                         </tbody>
@@ -294,8 +388,8 @@
                     </div>
                   </section>
             </div>
-        </div>
-          </div>
+            </div>
+            </div>
         </section>
       </main>
     </div>
